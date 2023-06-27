@@ -2,10 +2,12 @@
 <?php require('partials/nav.php'); ?>
 
 <main>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-        <h1>Page not found</h1>
-        <a href="/">Go home</a>
-    </div>
+<div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+    <h1 class="text-2xl fond-bold">Page Not Found</h1>
+    <p class="mt-4">
+        <a href="/" class="text-blue-500 underline">Go home</a>
+    </p>
+</div>
 </main>
 
 <?php require('partials/footer.php'); ?>
