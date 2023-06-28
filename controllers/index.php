@@ -1,3 +1,8 @@
 <?php
-$heading = 'Home page';
-require "views/index.view.php";
+
+$_SESSION['name'] = 'SomeName';
+
+view("index.view.php", [
+    'heading' => 'Home page'
+]);
+
